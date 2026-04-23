@@ -57,30 +57,30 @@ Our dataset is strictly categorized into three layers based on the triggering le
 
 | Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [L2-01](./Layer2/1-rds.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-02](./Layer2/2-vlan.c) | [#789]() | Linux Kernel | Kernel Panic | Mar 12, 2025 | Mar 15, 2025 |
-| [L2-03](./Layer2/3-vlan-s.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-04](./Layer2/4-xsk2.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-05](./Layer2/5-fs.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-06](./Layer2/6-bpf.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-07](./Layer2/7-xdp2.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-08](./Layer2/8-watchqueue.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-09](./Layer2/9-tls2.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-10](./Layer2/10-smc2.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-11](./Layer2/11-gsm.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-12](./Layer2/12-xsk.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-13](./Layer2/13-xdp.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-14](./Layer2/14-vmci.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-15](./Layer2/15-tls.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-16](./Layer2/16-nbd.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-17](./Layer2/17-unix.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-18](./Layer2/18-unix-s.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-19](./Layer2/19-tcve-2016-8655.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-20](./Layer2/20-tcve-2017-2636.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-21](./Layer2/21-tcve-2018-12232.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-22](./Layer2/22-tcve-2019-6974.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-23](./Layer2/23-watchqueue.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-24](./Layer2/24-xsk.c) | [#456]() | Linux Kernel | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-01](./Layer2/1-rds.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-02](./Layer2/2-vlan.c) | [#789]() | Linux Kernel | Initialization‑Use Races | Mar 12, 2025 | Mar 15, 2025 |
+| [L2-03](./Layer2/3-vlan-s.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-04](./Layer2/4-xsk2.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-05](./Layer2/5-fs.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-06](./Layer2/6-bpf.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-07](./Layer2/7-xdp2.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-08](./Layer2/8-watchqueue.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-09](./Layer2/9-tls2.c) | [#456]() | Linux Kernel | State Update Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-10](./Layer2/10-smc2.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-11](./Layer2/11-gsm.c) | [#456]() | Linux Kernel | State Update Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-12](./Layer2/12-xsk.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-13](./Layer2/13-xdp.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-14](./Layer2/14-vmci.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-15](./Layer2/15-tls.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-16](./Layer2/16-nbd.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-17](./Layer2/17-unix.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-18](./Layer2/18-unix-s.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-19](./Layer2/19-tcve-2016-8655.c) | [#456]() | Linux Kernel | State Update Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-20](./Layer2/20-tcve-2017-2636.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-21](./Layer2/21-tcve-2018-12232.c) | [#456]() | Linux Kernel | State Update Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-22](./Layer2/22-tcve-2019-6974.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-23](./Layer2/23-watchqueue.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-24](./Layer2/24-xsk.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
 
 **Layer 3: Semantic Logic Level**
 
