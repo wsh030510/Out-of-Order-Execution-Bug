@@ -20,7 +20,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 
 | Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [L1-01](./Layer1/1-Linuxeasy.c) | [#123]() | Linux Kernel | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-01](./Layer1/1-Linuxeasy.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=95bcade33a8a | Linux Kernel | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-02](./Layer1/2-DPDK.c) | [CVE-202X-XXXX]() | DPDK | Store-Store Reordering | Feb 05, 2025 | Feb 10, 2025 |
 | [L1-03](./Layer1/3-seL4-dynamic.c) | [#123]() | sel4 | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-04](./Layer1/4-MySQL.c) | [#123]() | MySQL | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
