@@ -12,7 +12,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 * **Bug Id**: Our own defined internal reference number for the bug (e.g., L1-01).
 * **Source**: The source of the vulnerability or the submission number of the vulnerability.
 * **Target System**: The software project or framework where the bug is located (e.g., MySQL, Linux Kernel, DPDK).
-* **Type**: The specific manifestation or category of the concurrency error (e.g., UAF, Deadlock, Store-Load reordering).
+* **Type**: The specific manifestation or category of the concurrency error (e.g., Unsafe Publication, Store-Load reordering).
 * **Registered**: The date the bug was initially reported or raised by the community.
 * **Resolved**: The date the bug was officially fixed or closed by the developers.
 
