@@ -8,7 +8,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 * **[Layer2](./Layer2)**: Resource Lifecycle Level (24 Samples). Focuses on hardware-agnostic and OS-level reorderings, typically manifesting as Use-After-Free (UAF) or Kernel Panics driven by thread scheduling or interrupts (e.g., Linux Kernel, Drivers).
 * **[Layer3](./Layer3)**: Semantic Logic Level (2 Samples). Focuses on complex state machine or protocol disruptions in high-performance distributed systems and networking frameworks (e.g., MySQL, DPDK, sofa-pbrpc).
 
-🏷️ Label Definitions
+🏷️ Label Definitions:
 * **Bug Id**: Our own defined internal reference number for the bug (e.g., L1-01).
 * **Source**: The source of the vulnerability or the submission number of the vulnerability.
 * **Target System**: The software project or framework where the bug is located (e.g., MySQL, Linux Kernel, DPDK).
