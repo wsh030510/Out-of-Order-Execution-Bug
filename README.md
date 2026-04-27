@@ -39,7 +39,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L1-17](./Layer1/17-mysql.c) | https://bugs.mysql.com/bug.php?id=87293 | MySQL | Inconsistent View | Aug 03, 2017 | Oct 10, 2017 |
 | [L1-18](./Layer1/18-JDK-8179954.c) | https://bugs.openjdk.org/browse/JDK-8179954 | JDK | Consistency Violation | May 09, 2017 | May 16, 2017 |
 | [L1-19](./Layer1/19-ompi.cpp) | https://github.com/open-mpi/ompi/pull/5536 | Open MPI | Unsafe Publication | Aug 14, 2018 | Aug 14, 2018 |
-| [L1-20](./Layer1/20-barrier.cpp) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-20](./Layer1/20-barrier.cpp) | / | General Testing | Unsafe Publication | / | / |
 | [L1-21](./Layer1/21-crossbeam.c) | https://github.com/crossbeam-rs/crossbeam/issues/859 | Crossbeam | Inconsistent View | Jul 06, 2022 | Feb 14, 2024 |
 | [L1-22](./Layer1/22-MariaDB.c) | https://bugs.mysql.com/bug.php?id=76135 | MariaDB | Unsafe Publication | Mar 3, 2015 | Aug 12, 2015 |
 | [L1-23](./Layer1/23-mcs.c) | http://patches.dpdk.org/patch/75983/ | DPDK | Consistency Violation | Aug 26, 2020 | Feb 10, 2021 |
@@ -47,11 +47,11 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L1-25](./Layer1/25-mysql_volatile_bug.c) | https://bugs.mysql.com/bug.php?id=74833 | MySQL | Unsafe Publication | Nov 13, 2014 | May 11, 2015 |
 | [L1-26](./Layer1/26-mysql-99556.c) | https://bugs.mysql.com/bug.php?id=99556 | MySQL | Unsafe Publication | May 13, 2020 | May 15, 2020 |
 | [L1-27](./Layer1/27-mysql-ut-realx.c) | https://bugs.mysql.com/bug.php?id=74832 | MySQL | Inconsistent View | Nov 13, 2014 | Jan 05, 2016 |
-| [L1-28](./Layer1/28-pso_test.c) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-28](./Layer1/28-pso_test.c) | / | General Testing | Unsafe Publication | / | / |
 | [L1-29](./Layer1/29-sofa_pbrpc_hang.c) | https://github.com/baidu/sofa-pbrpc/issues/240 | sofa-pbrpc | Consistency Violation | May 20, 2020 | May 20, 2020 |
-| [L1-30](./Layer1/30-tso_test.c) | / | General Testing | Consistency Violation | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-30](./Layer1/30-tso_test.c) | / | General Testing | Consistency Violation | / | / |
 | [L1-31](./Layer1/31-unsafe_publish.c) | https://stackoverflow.com/questions/16159203/why-does-this-java-program-terminate-despite-that-apparently-it-shouldnt-and-d | General Testing | Unsafe Publication | Apr 23, 2013 | May 1, 2013 |
-| [L1-32](./Layer1/32-datarace.cpp) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-32](./Layer1/32-datarace.cpp) | / | General Testing | Unsafe Publication | / | / |
 
 **Layer 2: Resource Lifecycle Level**
 
