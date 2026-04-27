@@ -62,8 +62,8 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L2-03](./Layer2/3-vlan-s.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c1102e9d49eb36c0be18cb3e16f6e46ffb717964 | Linux Kernel | Initialization‑Use Races | Apr 19, 2021 | Apr 19, 2021 |
 | [L2-04](./Layer2/4-xsk2.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=42fddcc7c64b723a867c7b2f5f7505e244212f13 | Linux Kernel | Initialization‑Use Races | Sep 4, 2019 | Sep 5, 2019 |
 | [L2-05](./Layer2/5-fs.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7ee47dcfff1835ff75a794d1075b6b5f5462cfed | Linux Kernel | Teardown‑Use Races | Oct 31, 2022 | Oct 31, 2022 |
-| [L2-06](./Layer2/6-bpf.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-07](./Layer2/7-xdp2.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-06](./Layer2/6-bpf.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-07](./Layer2/7-xdp2.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
 | [L2-08](./Layer2/8-watchqueue.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2ed147f015af2b48f41c6f0b6746aa9ea85c19f3 | Linux Kernel | Initialization‑Use Races | Mar 11, 2022 | Mar 11, 2022 |
 | [L2-09](./Layer2/9-tls2.c) |  | Linux Kernel | State Update Races | Nov 20, 2024 | Dec 01, 2024 |
 | [L2-10](./Layer2/10-smc2.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
@@ -71,7 +71,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L2-12](./Layer2/12-xsk.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=37b076933a8e38e72ffd3c40d3eeb5949f38baf3 | Linux Kernel | Teardown‑Use Races | May 22, 2018 | May 22, 2018 |
 | [L2-13](./Layer2/13-xdp.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
 | [L2-14](./Layer2/14-vmci.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-15](./Layer2/15-tls.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-15](./Layer2/15-tls.c) |  | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
 | [L2-16](./Layer2/16-nbd.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c2da049f419417808466c529999170f5c3ef7d3d | Linux Kernel | Initialization‑Use Races | Nov 17, 2023 | Nov 20, 2023 |
 | [L2-17](./Layer2/17-unix.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ae3b564179bfd06f32d051b9e5d72ce4b2a07c37 | Linux Kernel | Initialization‑Use Races | Feb 15, 2019 | Feb 20, 2019 |
 | [L2-18](./Layer2/18-unix-s.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ae3b564179bfd06f32d051b9e5d72ce4b2a07c37 | Linux Kernel | Initialization‑Use Races | Feb 15, 2019 | Feb 20, 2019 |
@@ -79,12 +79,12 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L2-20](./Layer2/20-tcve-2017-2636.c) | https://nvd.nist.gov/vuln/detail/CVE-2017-2636 | Linux Kernel | Teardown‑Use Races | Mar 07, 2017 | Apr 19, 2025 |
 | [L2-21](./Layer2/21-tcve-2018-12232.c) | https://nvd.nist.gov/vuln/detail/CVE-2018-12232 | Linux Kernel | State Update Races | Jun 12, 2018 | Nov 20, 2024 |
 | [L2-22](./Layer2/22-tcve-2019-6974.c) | https://nvd.nist.gov/vuln/detail/CVE-2019-6974 | Linux Kernel | Teardown‑Use Races | Feb 15, 2019 | Nov 20, 2024 |
-| [L2-23](./Layer2/23-watchqueue.c) | [#456]() | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
-| [L2-24](./Layer2/24-xsk.c) | [#456]() | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-23](./Layer2/23-watchqueue.c) |  | Linux Kernel | Initialization‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
+| [L2-24](./Layer2/24-xsk.c) |  | Linux Kernel | Teardown‑Use Races | Nov 20, 2024 | Dec 01, 2024 |
 
 **Layer 3: Semantic Logic Level**
 
 | Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [L3-01](./Layer3/L3-1.c) | [#999]() | Linux Kernel | State Machine Error | Apr 01, 2026 | --- |
+| [L3-01](./Layer3/L3-1.c) |  | Linux Kernel | State Machine Error | Apr 01, 2026 | --- |
 | [L3-02](./Layer3/L3-2.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a0d57df8938e9fd2e99d47a85b7f37d86f91097 | Linux Kernel | State Machine Error | May 24, 2023 | May 26, 2023 |
