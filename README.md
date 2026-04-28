@@ -89,7 +89,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L3-01](./Layer3/L3-1.c) |  | Linux Kernel | State Machine Error | Apr 01, 2026 | --- |
 | [L3-02](./Layer3/L3-2.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a0d57df8938e9fd2e99d47a85b7f37d86f91097 | Linux Kernel | State Machine Error | May 24, 2023 | May 26, 2023 |
 
-📂[ `CBMC`](./CBMC/) (CBMC Static Verification Module)
+📂[**`CBMC`**](./CBMC/) (CBMC Static Verification Module)
 This directory contains the testing environment and evaluation data specifically adapted for the **CBMC (C Bounded Model Checker)**. Due to the nature of static formal verification, the original concurrent programs have been refactored into a specific format that CBMC can process (e.g., bounding loop limits, translating concurrency primitives, and inserting specific state assertions).
 
 This folder mainly consists of the following three parts:
@@ -97,7 +97,7 @@ This folder mainly consists of the following three parts:
 * **`Automated Test Scripts`**: Scripts used to batch-execute the static verification. 
 * **`Test Results`**: Contains the final output logs and evaluation metrics after the CBMC execution, documenting the bug detection results .
 
-📂[ `GENMC&Nidhugg`](./GENMC&Nidhugg/) (Stateless Model Checking Module)
+📂[**`GENMC&Nidhugg`**](./GENMC&Nidhugg/) (Stateless Model Checking Module)
 This directory contains the testing environments, intermediate files, and evaluation data specifically tailored for two Stateless Model Checking (SMC) tools: **GenMC** and **Nidhugg**. 
 
 This folder mainly consists of the following components:
