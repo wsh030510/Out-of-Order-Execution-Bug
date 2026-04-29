@@ -89,26 +89,26 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L3-01](./Layer3/L3-1.c) | / | Linux Kernel | State Machine Error | / | / |
 | [L3-02](./Layer3/L3-2.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a0d57df8938e9fd2e99d47a85b7f37d86f91097 | Linux Kernel | State Machine Error | May 24, 2023 | May 26, 2023 |
 
-📂 [**`CBMC`**](./CBMC/)
+📂 [**CBMC**](./CBMC/)
 This directory contains the testing environment and evaluation data specifically adapted for the **CBMC (C Bounded Model Checker)**. Due to the nature of static formal verification, the original concurrent programs have been refactored into a specific format that CBMC can process (e.g., bounding loop limits, translating concurrency primitives, and inserting specific state assertions).
 
 This folder mainly consists of the following three parts:
-* **`Formatted Source Code`**: Concurrent bug source code restructured specifically for CBMC testing. 
-* **`Automated Test Scripts`**: Scripts used to batch-execute the static verification. 
-* **`Test Results`**: Contains the final output logs and evaluation metrics after the CBMC execution, documenting the bug detection results .
+* **Formatted Source Code**: Concurrent bug source code restructured specifically for CBMC testing. 
+* **Automated Test Scripts**: Scripts used to batch-execute the static verification. 
+* **Test Results**: Contains the final output logs and evaluation metrics after the CBMC execution, documenting the bug detection results .
 
-📂 [**`GENMC&Nidhugg`**](./GENMC&Nidhugg/)
+📂 [**GENMC&Nidhugg**](./GENMC&Nidhugg/)
 This directory contains the testing environments, intermediate files, and evaluation data specifically tailored for two Stateless Model Checking (SMC) tools: **GenMC** and **Nidhugg**. 
 
 This folder mainly consists of the following components:
-* **`Formatted Source Code (for GenMC)`**: Concurrent source code adapted specifically for GenMC, utilizing the required concurrency primitives and assertion formats for its execution model.
-* **`LLVM IR Files (.ll) (for Nidhugg)`**: Compiled LLVM Intermediate Representation files generated from the source code. These `.ll` files serve as the direct and necessary inputs for Nidhugg's testing process.
-* **`Automated Test Scripts`**: Execution scripts designed to orchestrate the testing workflows for both tools. They handle the compilation processes, parameter configurations, and automated batch runs.
-* **`Test Results`**: The final detection logs and evaluation metrics for both GenMC and Nidhugg, documenting their bug-finding capabilities.
+* **Formatted Source Code (for GenMC)**: Concurrent source code adapted specifically for GenMC, utilizing the required concurrency primitives and assertion formats for its execution model.
+* **LLVM IR Files (.ll) (for Nidhugg)**: Compiled LLVM Intermediate Representation files generated from the source code. These `.ll` files serve as the direct and necessary inputs for Nidhugg's testing process.
+* **Automated Test Scripts**: Execution scripts designed to orchestrate the testing workflows for both tools. They handle the compilation processes, parameter configurations, and automated batch runs.
+* **Test Results**: The final detection logs and evaluation metrics for both GenMC and Nidhugg, documenting their bug-finding capabilities.
 
-📂 [**`IRhunter`**](./IRhunter/)
+📂 [**IRhunter**](./IRhunter/)
 This directory contains the detection artifacts and utility scripts for **IRhunter**, a dynamic binary instrumentation tool used for identifying concurrency vulnerabilities.
 
 This folder mainly consists of the following components:
-* **`Vulnerability Reports`**: Detailed detection reports for 18 specific concurrency vulnerabilities identified by IRhunter during our evaluation.
-* **`Automated Test Script`**: A custom-developed script designed to execute and verify IRhunter's detection logic, facilitating batch testing and reproduction of recorded bugs.
+* **Vulnerability Reports**: Detailed detection reports for 18 specific concurrency vulnerabilities identified by IRhunter during our evaluation.
+* **Automated Test Script**: A custom-developed script designed to execute and verify IRhunter's detection logic, facilitating batch testing and reproduction of recorded bugs.
