@@ -86,7 +86,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 
 | Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [L3-01](./Layer3/L3-1.c) |  | Linux Kernel | State Machine Error | / | / |
+| [L3-01](./Layer3/L3-1.c) | / | Linux Kernel | State Machine Error | / | / |
 | [L3-02](./Layer3/L3-2.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a0d57df8938e9fd2e99d47a85b7f37d86f91097 | Linux Kernel | State Machine Error | May 24, 2023 | May 26, 2023 |
 
 📂 [**`CBMC`**](./CBMC/)
